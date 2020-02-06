@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:id="@+id/fragment_container"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-/>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:id="@+id/fragment_container"
+>
+    <fragment
+            android:id="@+id/fragment_detail"
+            class="com.example.fragmentlab.DetailFragment"
+            android:layout_width="match_parent"
+            android:layout_weight="15"
+            android:layout_height="0dp"
+    />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    <fragment
+            android:id="@+id/fragment_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            class="com.example.fragmentlab.CustomListFragment"
+            android:layout_weight="85"
+    />
+</LinearLayout>
