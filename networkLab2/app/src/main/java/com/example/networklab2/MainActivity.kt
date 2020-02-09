@@ -6,7 +6,6 @@ import android.os.AsyncTask
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
-import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL
 
@@ -17,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         GetImageTask{
             imageView.setImageBitmap(it)
-        }.execute(URL("https://www.underconsideration.com/brandnew/archives/android_2019_logo_before_after.png"))
+        }.execute(URL("https://www.freepngimg.com/download/android/31165-8-android-hd.png"))
     }
     class GetImageTask(private val callback: (Bitmap) -> Unit) : AsyncTask<URL, Void, Bitmap>() {
         override fun onPostExecute(result: Bitmap?) {
