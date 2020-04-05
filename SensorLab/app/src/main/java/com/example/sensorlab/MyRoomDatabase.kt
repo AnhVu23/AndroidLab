@@ -6,7 +6,6 @@ import android.content.Context
 import android.arch.persistence.room.Room
 
 
-
 @Database(entities = [Topic::class, Word::class], version = 2)
 abstract class MyRoomDatabase : RoomDatabase() {
     abstract fun topicDao(): TopicDao
