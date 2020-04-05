@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.fab
 import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Color
+import android.preference.PreferenceManager
 import android.view.MenuItem
 
 
