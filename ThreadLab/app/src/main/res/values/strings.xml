@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Lab 4</string>
+    <string name="placeholder_text" translatable="false">I\'m waiting for the text to come</string>
+</resources>
