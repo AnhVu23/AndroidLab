@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">MapLab</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name" translatable="false">Lab 8</string>
+    <string name="small_text_even" translatable="false">Distance will display here</string>
+    <string name="info_placeholder" translatable="false">Location name</string>
 </resources>

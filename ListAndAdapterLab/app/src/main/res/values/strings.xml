@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Lab1</string>
+    <string name="president_info_placeholder" translatable="false">President Info</string>
+    <string name="president_desc_placeholder" translatable="false">President Description</string>
+</resources>
