@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Lab 5</string>
+    <string name="image_description" translatable="false">Image from Internet</string>
+</resources>
